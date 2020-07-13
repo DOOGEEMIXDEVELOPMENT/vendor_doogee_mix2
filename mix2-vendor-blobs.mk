@@ -69,8 +69,8 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/mix2/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/doogee/mix2/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/doogee/mix2/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/doogee/mix2/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
     vendor/doogee/mix2/lib64/hw/microarray.fingerprint.default.so:system/lib64/hw/microarray.fingerprint.default.so \
+    vendor/doogee/mix2/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
     vendor/doogee/mix2/lib64/libalsautils.so:system/lib64/libalsautils.so \
     vendor/doogee/mix2/lib64/libdcfdecoderjni.so:system/lib64/libdcfdecoderjni.so \
     vendor/doogee/mix2/lib64/libfs_mgr.so:system/lib64/libfs_mgr.so \
@@ -84,7 +84,18 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/mix2/lib64/libril.so:system/lib64/libril.so \
     vendor/doogee/mix2/lib64/librilutils.so:system/lib64/librilutils.so \
     vendor/doogee/mix2/lib64/libxml2.so:system/lib64/libxml2.so \
+    vendor/doogee/mix2/lib64/libmpbase.so:system/lib64/libmpbase.so \
+    vendor/doogee/mix2/lib64/libgybeauty422.so:system/lib64/libgybeauty422.so \
+    vendor/doogee/mix2/lib64/libgybeauty420.so:system/lib64/libgybeauty420.so \
+    vendor/doogee/mix2/lib64/libgybeauty.so:system/lib64/libgybeauty.so \
+    vendor/doogee/mix2/lib64/libarcsoft_beautyshot.so:system/lib64/libarcsoft_beautyshot.so \
+    vendor/doogee/mix2/lib64/libhardware.so:system/lib64/libhardware.so \
     vendor/doogee/mix2/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/doogee/mix2/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
+    vendor/doogee/mix2/lib/libgybeauty.so:system/lib/libgybeauty.so \
+    vendor/doogee/mix2/lib/libgybeauty420.so:system/lib/libgybeauty420.so \
+    vendor/doogee/mix2/lib/libgybeauty422.so:system/lib/libgybeauty422.so \
+    vendor/doogee/mix2/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/doogee/mix2/lib/libalsautils.so:system/lib/libalsautils.so \
     vendor/doogee/mix2/lib/libdcfdecoderjni.so:system/lib/libdcfdecoderjni.so \
     vendor/doogee/mix2/lib/libext2_blkid.so:system/lib/libext2_blkid.so \
@@ -105,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/doogee/mix2/lib/libril.so:system/lib/libril.so \
     vendor/doogee/mix2/lib/librilutils.so:system/lib/librilutils.so \
     vendor/doogee/mix2/lib/libxml2.so:system/lib/libxml2.so \
+    vendor/doogee/mix2/lib/libhardware.so:system/lib/libhardware.so \
     vendor/doogee/mix2/vendor/bin/aal:system/vendor/bin/aal \
     vendor/doogee/mix2/vendor/bin/aee:system/vendor/bin/aee \
     vendor/doogee/mix2/vendor/bin/aee_archive:system/vendor/bin/aee_archive \
